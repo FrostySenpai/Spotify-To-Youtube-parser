@@ -7,4 +7,4 @@ This was just another programming test for myself so I can'T say that the good i
 
 
 # Demo
-<img alt="Demo" src="https://i.imgur.com/oHwOOUh.gif />
+<img alt="Demo" src="https://i.imgur.com/oHwOOUh.gif width="600" />
