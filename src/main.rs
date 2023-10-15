@@ -29,7 +29,6 @@ fn main() {
             let slice = &response.unwrap()[102..180];
             let re = Regex::new(r"^>|- song and lyrics by |( \| Spot.*)").unwrap();
             let stripped = re.replace_all(slice, "");
-            println!("{stripped}");
             match yt_search(&stripped) {
                 Ok(Some(video_url)) => {
                     println!("Here is your result on Youtube: {}", video_url);
